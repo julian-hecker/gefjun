@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+.categoryCard {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  width: 20rem;
+  height: 15rem;
+
+  .productImage {
+    position: absolute;
+    width: 20rem;
+  }
+
+  .textContainer {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba($color: #ffffff, $alpha: 0.5);
+    position: relative;
+    padding: 1rem;
+
+    .textTitle {
+      font-family: "Quicksand", sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .textDescription {
+      font-family: "Quicksand", sans-serif;
+      font-size: 24px;
+      margin: 0;
+    }
+  }
+}
